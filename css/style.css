@@ -1,0 +1,129 @@
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #343a40;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.jumbotron {
+    background-image: url;
+    /* Imagem de fundo do cabeçalho */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.jumbotron .btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.testimonial {
+    background-color: #f8f9fa;
+    padding: 2rem;
+}
+
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.contact {
+    background-color: #343a40;
+    color: white;
+    padding: 4rem 2rem;
+}
+
+.contact h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact p {
+    font-size: 1rem;
+}
+
+.contact a {
+    color: white;
+}
+
+.contact a:hover {
+    color: #007bff;
+}
+
+.contact form input,
+.contact form textarea {
+    border-radius: 0;
+}
+
+.contact form button {
+    border-radius: 0;
+    background-color: #007bff;
+    color: white;
+
+}
