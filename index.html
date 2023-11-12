@@ -173,47 +173,76 @@
 
         </div>
     </div>
-
-    <!-- Depoimentos -->
-    <div id="testimonials" class="testimonial">
-        <h2 class="section-title text-center">Depoimentos de clientes</h2>
-        <p class="section-subtitle text-center">Veja o que os nossos clientes dizem sobre a nossa consultoria em
-            alimentos.</p>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="d-flex align-items-center">
-                        <img src=^10^ alt="Di Piallato" class="testimonial-image mr-3"> <!-- Imagem ilustrativa -->
-                        <div>
-                            <p class="testimonial-name">Elizete - Di Piallato Gelateria</p>
-                            <p class="testimonial-text">"A Pamela é uma profissional impecável, prestou um serviço muito minucioso e detalhado, entregou antes do prazo combinado, e sempre dedicada a todo nosso processo. Indico o trabalho, e já temos outros engatilhados."</p>
+    <div id="testimonials" class="testimonial container">
+        <div class="row">
+            <h2 class="section-title text-center">Depoimentos de clientes</h2>
+        </div>
+        <!-- Slider -->
+        <div id="slider" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <!-- Indicadores -->
+            <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+            </ol>
+            <!-- Slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-2 text-right d-none d-md-block"><img src=img/logoDiPiallato.png
+                                alt="Di Piallato" class="testimonial-image mr-3">
+                        </div> <!-- Imagem ilustrativa -->
+                        <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12 text-left">
+                            <p class="testimonial-name text-left">Elizete - Di Piallato Gelateria</p>
+                            <p class="testimonial-text text-left">"A Pamela é uma profissional impecável, prestou um
+                                serviço
+                                muito minucioso e detalhado, entregou antes do prazo combinado, e sempre dedicada a todo
+                                nosso
+                                processo. Indico o trabalho, e já temos outros engatilhados."</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-4">
-                    <div class="d-flex align-items-center">
-                        <img src=^11^ alt="Crocante" class="testimonial-image mr-3"> <!-- Imagem ilustrativa -->
-                        <div>
-                            <p class="testimonial-name">Fernando - Crocante Alimentos</p>
-                            <p class="testimonial-text">" Super recomendo!!!!! Muito talentosa, atenta a todos os detalhes. Garantindo ao seu cliente a informação correta."</p>
+                <div class="carousel-item">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-2 text-right d-none d-md-block"><img src=img/logoCrocante.png alt="Crocante"
+                                class="testimonial-image mr-3">
+                        </div>
+                        <!-- Imagem ilustrativa -->
+                        <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12 text-left">
+                            <p class="testimonial-name text-left">Fernando - Crocante Alimentos</p>
+                            <p class="testimonial-text text-left">" Super recomendo!!!!! Muito talentosa, atenta a todos
+                                os
+                                detalhes. Garantindo ao seu cliente a informação correta."</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-4">
-                    <div class="d-flex align-items-center">
-                        <img src=^12^ alt="Luana" class="testimonial-image mr-3"> <!-- Imagem ilustrativa -->
-                        <div>
-                            <p class="testimonial-name">Luana - Luana Kocholy Confeitaria Artesanal</p>
-                            <p class="testimonial-text">"Atendimento personalizado e de suuuper qualidade. Auxilia em tudo que é necessário e sempre se dispõe a realizar os pedidos. Super indico." </p>
+                <div class="carousel-item">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-2 text-right d-none d-md-block"><img src=img/logoLuana.png alt="Luana"
+                                class="testimonial-image mr-3">
+                        </div>
+                        <!-- Imagem ilustrativa -->
+                        <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12 text-left">
+                            <p class="testimonial-name left">Luana - Luana Kocholy Confeitaria Artesanal</p>
+                            <p class="testimonial-text text-left">"Atendimento personalizado e de suuuper qualidade.
+                                Auxilia
+                                em tudo que é necessário e sempre se dispõe a realizar os pedidos. Super indico." </p>
                         </div>
                     </div>
                 </div>
-
             </div>
+            <!-- Controles -->
+            <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
         </div>
     </div>
+
 
     <!-- Contato -->
     <div id="contact" class="contact">
