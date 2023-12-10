@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultoria em Alimentos</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <!-- Navegação -->
+    <!-- Navegação 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Consultoria em Alimentos</a>
+            <a class="navbar-brand" href="#">Vianda Consultorias</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
@@ -40,16 +41,46 @@
                 </ul>
             </div>
         </div>
-    </nav>
-
+    </nav>-->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#home">
+          <img src="img/logofully.svg" alt="Vianda Consultorias" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basic-navbar-nav" aria-controls="basic-navbar-nav" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="basic-navbar-nav">
+          <ul class="nav navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><span class='teste'>Quem Sou</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services"><span>Serviços</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials"><span>Depoimentos</span></a>
+            </li>
+          </ul>
+          <span class="navbar-text ml-auto">
+            <div class="social-icon">
+              <a href="https://wa.me/5541995608142" target="_blank" rel="noreferrer" ><img src="img/whatsy.svg" alt="Whatsapp"></img></a>
+              <a href="https://www.instagram.com/viandaconsultorias/?hl=pt-br" target="_blank" rel="noreferrer" ><img src="img/igy.svg" alt="Instagram"></img></a>
+              <a href="https://www.facebook.com/viandaconsultorias" target="_blank" rel="noreferrer"><img src="img/fbooky.svg" alt="Facebook"></img></a>
+              <a href="mailto:contato@viandaconsultorias.com?subject=Contato email Vianda" target="_blank" rel="noreferrer"><img src="img/email.svg" alt="Email"></img></a>
+            </div>
+          </span>
+        </div>
+      </nav>
+      
     <!-- Cabeçalho -->
     <div id="home" class="jumbotron jumbotron-fluid">
         <div class="container" style="height: 100%;">
-            <div class="row h-100 align-items-center">
-                <div class="col-md-8">
+
+            <!-- Cabeçalho MOBILE-->
+            <div class="row h-100 align-items-center" id="mobile">
+                <div class="col-md-12">
                     <div class="row">
-                        <h1 class="display-4">A consultoria em</h1>
-                        <h1 class="display-4">alimentos feita para
+                        <h1 class="display-4">A consultoria em <br>alimentos feita para
                             <img src=img/logoVCEscuro.png alt="VC" class="banner-logo-vc">
                         </h1>
                     </div>
@@ -61,10 +92,26 @@
                         <a href="#contact" class="btn btn-primary btn-lg">Entre em contato</a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <!-- Espaço reservado para uma imagem ou vídeo -->
+            </div>
+
+            <!-- Cabeçalho DESKTOP -->
+            <div class="row h-100 align-items-center" id="desktop">
+                <div class="col-md-8">
+                    <div class="row">
+                        <h1>A consultoria em<br>alimentos feita para
+                            <img src=img/logoVCEscuro.png alt="VC" class="banner-logo-vc">
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <h3>Serviços exclusivos e personalizados, <br>de acordo com as suas necessidades <br>e
+                            realidade.</h3>
+                    </div>
+                    <div class="row">
+                        <a href="#contact" class="btn btn-primary btn-lg">Entre em contato</a>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
     <!-- Sobre -->
@@ -74,7 +121,7 @@
             experiência no mercado.</p>
         <div class="row">
             <div class="col-md-4">
-                <img src=^5^ alt="Vantagens da consultoria" class="img-fluid"> <!-- Imagem ilustrativa -->
+                <img src="img/square.png" alt="Vantagens da consultoria" class="img-fluid"> <!-- Imagem ilustrativa -->
             </div>
             <div class="col-md-8">
                 <h3>Vantagens da consultoria</h3>
@@ -105,7 +152,7 @@
             </div>
 
             <div class="col-md-4">
-                <img src=^6^ alt="Como funciona a consultoria" class="img-fluid"> <!-- Imagem ilustrativa -->
+                <img src="img/square.png" alt="Como funciona a consultoria" class="img-fluid"> <!-- Imagem ilustrativa -->
             </div>
         </div>
 
@@ -134,7 +181,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src=^7^ alt="Consultoria em Boas Práticas de Fabricação" class="card-img-top">
+                    <img src="img/square.png" alt="Consultoria em Boas Práticas de Fabricação" class="card-img-top">
                     <!-- Imagem ilustrativa -->
                     <div class="card-body">
                         <h4 class="card-title">Consultoria em Boas Práticas de Fabricação</h4>
@@ -148,7 +195,7 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <img src=^8^ alt="Consultoria em Análise de Perigos e Pontos Críticos de Controle"
+                    <img src="img/square.png" alt="Consultoria em Análise de Perigos e Pontos Críticos de Controle"
                         class="card-img-top"> <!-- Imagem ilustrativa -->
                     <div class="card-body">
                         <h4 class="card-title">Consultoria em Análise de Perigos e Pontos Críticos de Controle</h4>
@@ -163,7 +210,7 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <img src=^9^ alt="Consultoria em Rotulagem Nutricional" class="card-img-top">
+                    <img src="img/square.png" alt="Consultoria em Rotulagem Nutricional" class="card-img-top">
                     <!-- Imagem ilustrativa -->
                     <div class="card-body">
                         <h4 class="card-title">Consultoria em Rotulagem Nutricional</h4>
@@ -248,37 +295,21 @@
         </div>
     </div>
 
-
-    <!-- Contato -->
-    <div id="contact" class="contact">
-        <h2 class="section-title text-center">Contato</h2>
-        <p class="section-subtitle text-center">Entre em contato conosco pelas nossas redes sociais e acompanhe as
-            nossas novidades.</p>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3>Redes sociais</h3>
-                    <p><a href=^13^><i class="fab fa-facebook-square"></i> Facebook</a></p>
-                    <!-- Link para a página do Facebook da empresa -->
-                    <p><a href=^14^><i class="fab fa-instagram"></i> Instagram</a></p>
-                    <!-- Link para a página do Instagram da empresa -->
-                    <p><a href=^15^><i class="fab fa-linkedin"></i> LinkedIn</a></p>
-                    <!-- Link para a página do LinkedIn da empresa -->
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Rodapé -->
     <footer class="text-center py-3">
-        <p>© 2023 Consultoria em Alimentos. Todos os direitos reservados.</p>
+        <p>© 2023 Vianda Consultorias. Todos os direitos reservados.</p>
     </footer>
 
     <!-- Bootstrap CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <!-- Custom script -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>

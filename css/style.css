@@ -1,47 +1,101 @@
-body{
+body {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-}
-.navbar {
-    background-color: #f8f9fa;
+    color: #231f1f;
 }
 
-.navbar-brand {
-    font-weight: bold;
-    font-size: 1.5rem;
-}
+@media (max-width: 991px) {
+    .jumbotron {
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin-bottom: 0;
+        background-image: url(../img/bannerMobile.png);
+        background-size: cover;
+    }
 
-.nav-link {
-    color: #343a40;
-}
+    #desktop {
+        display: none;
+    }
 
-.nav-link:hover {
-    color: #007bff;
-}
+    #mobile {
+        display: flex;
+    }
+    .align-items-center {
+        margin-top: -10vh;
+    }
 
-.jumbotron {
-    background-image: url;
-    /* Imagem de fundo do cabeçalho */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin-bottom: 0;
+    .banner-logo-vc {
+        margin-left: -1rem;
+        max-height: min(25vw,7rem);
+        object-fit: cover;
+        max-width: 100%;
+        position: absolute;
+        top: -0.4rem;
+    }
+    
+    .jumbotron h1 {
+        font-size: min(8vw,2.5rem)!important;
+        white-space: nowrap!important;
+        color: #231f1f;
+    }
+    
+    .jumbotron h3 {
+        font-size: min(5vw,1.5rem)!important;
+        color: #231f1f;
+        white-space: nowrap!important;
+    }
+    
+    .jumbotron .btn {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
 }
+@media (min-width: 992px) {
+    .jumbotron {
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin-bottom: 0;
+        background-image: url(../img/banner.png);
+        background-size: cover;
+    }
 
-.jumbotron h1 {
-    font-size: 4rem;
-    color: white;
-    text-shadow: 2px 2px 4px black;
-}
+    #desktop {
+        display: flex;
+    }
 
-.jumbotron p {
-    font-size: 1.5rem;
-    color: white;
-    text-shadow: 1px 1px 2px black;
-}
+    #mobile {
+        display: none;
+    }
 
-.jumbotron .btn {
-    font-size: 1.2rem;
-    font-weight: bold;
+    .banner-logo-vc {
+        margin-left: -1rem;
+        max-height: 12rem;
+        object-fit: cover;
+        max-width: 100%;
+        position: absolute;
+        top: -0.25rem;
+    }
+    
+    
+    .jumbotron h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        color: #231f1f;
+    }
+    
+    .jumbotron h3 {
+        font-style: italic;
+        color: #231f1f;
+        text-shadow: none;
+    }
+
+    .jumbotron .btn {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+
 }
 
 .section-title {
@@ -72,21 +126,9 @@ body{
 
 .card-text {
     font-size: 0.9rem;
-}.jumbotron h1 {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    font-size: 4rem;
-    font-weight: bold;
-    color: #231f1f;
-    text-shadow: none;
 }
-.jumbotron h3 {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    font-style: italic;
-    color: #231f1f;
-    text-shadow: none;
-}
+
 .jumbotron .btn {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     background-color: #594834;
     border-color: #967858 !important;
 }
@@ -94,28 +136,23 @@ body{
 .jumbotron .btn:active {
     background-color: #7e6a52 !important;
 }
+
 .jumbotron .btn:hover {
     border-color: #967858 !important;
 }
 
-.banner-logo-vc {
-    margin-left: -1rem;
-    max-height: 12rem;
-    object-fit: cover;
-    max-width: 100%;
-    position: absolute;
-    top: -0.25rem;
-}
 .testimonial {
     background-color: #f8f9fa;
     padding: 2rem;
 }
+
 .testimonial-image {
     max-height: 20rem;
     border-radius: 0%;
     object-fit: cover;
     max-width: 100%;
 }
+
 .testimonial-name {
     font-size: 1.2rem;
     font-weight: bold;
@@ -158,9 +195,4 @@ body{
     border-radius: 0;
     background-color: #007bff;
     color: white;
-
-}
-.jumbotron {
-    background-image: url(../img/banner.png);
-    background-size: cover;
 }
