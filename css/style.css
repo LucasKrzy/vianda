@@ -1,5 +1,5 @@
 body {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
     color: #231f1f;
 }
 
@@ -20,36 +20,38 @@ body {
     #mobile {
         display: flex;
     }
+
     .align-items-center {
         margin-top: -10vh;
     }
 
     .banner-logo-vc {
         margin-left: -1rem;
-        max-height: min(25vw,7rem);
+        max-height: min(25vw, 7rem);
         object-fit: cover;
         max-width: 100%;
         position: absolute;
         top: -0.4rem;
     }
-    
+
     .jumbotron h1 {
-        font-size: min(8vw,2.5rem)!important;
-        white-space: nowrap!important;
+        font-size: min(8vw, 2.5rem) !important;
+        white-space: nowrap !important;
         color: #231f1f;
     }
-    
+
     .jumbotron h3 {
-        font-size: min(5vw,1.5rem)!important;
+        font-size: min(5vw, 1.5rem) !important;
         color: #231f1f;
-        white-space: nowrap!important;
+        white-space: nowrap !important;
     }
-    
+
     .jumbotron .btn {
         font-size: 1.2rem;
         font-weight: bold;
     }
 }
+
 @media (min-width: 992px) {
     .jumbotron {
         background-size: cover;
@@ -76,14 +78,14 @@ body {
         position: absolute;
         top: -0.25rem;
     }
-    
-    
+
+
     .jumbotron h1 {
         font-size: 4rem;
         font-weight: bold;
         color: #231f1f;
     }
-    
+
     .jumbotron h3 {
         font-style: italic;
         color: #231f1f;
@@ -140,12 +142,6 @@ body {
 .jumbotron .btn:hover {
     border-color: #967858 !important;
 }
-
-.testimonial {
-    background-color: #f8f9fa;
-    padding: 2rem;
-}
-
 .testimonial-image {
     max-height: 20rem;
     border-radius: 0%;
@@ -153,14 +149,10 @@ body {
     max-width: 100%;
 }
 
-.testimonial-name {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.testimonial-text {
-    font-size: 1rem;
-    font-style: italic;
+@media (max-width: 992px) {
+    .testimonial-img {
+        display: none;
+    }
 }
 
 .contact {

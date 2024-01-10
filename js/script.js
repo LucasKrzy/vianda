@@ -7,7 +7,7 @@ $(window).scroll(function() {
         $('nav-bar').removeClass('scrolled');
     }
 });
-$(document).ready(function() {
+/*$(document).ready(function() {
     $('.navbar-toggler').click(function() {
         $('nav.navbar').addClass('scrolled');
     });
@@ -15,4 +15,4 @@ $(document).ready(function() {
     $('#basic-navbar-nav').on('hidden.bs.collapse', function () {
         $('nav.navbar').removeClass('scrolled');
     });
-});
+});*/
