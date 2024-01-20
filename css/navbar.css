@@ -19,6 +19,16 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
+    height: 55px;
+    background-image: url("../img/vianda/logofullg.svg");
+    background-repeat: no-repeat;
+  }
+  
+nav.navbar.scrolled a.navbar-brand {
+    background-image: url("../img/vianda/logofully.svg");
+  }
+
+nav.navbar a.navbar-brand {
     width: 17%;
     min-width: 210px;
 }
@@ -27,7 +37,7 @@ nav.navbar .navbar-nav a.nav-link{
     font-weight: 800;
     color: #dfb159 !important;
     letter-spacing: 0.8px;
-     padding: 0 8px; 
+    padding: 0 8px; 
     font-size: 18px;
     opacity: 0.75;
     /* white-space: nowrap; */
