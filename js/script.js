@@ -1,20 +1,17 @@
-var logo = $('.navbar-brand img');
-
-function trocarImagem() {
-    var srcAtual = logo.attr('src');
-    var srcAlternativo = logo.data('alt');
-    logo.attr('src', srcAlternativo);
-    logo.data('alt', srcAtual);
-}
+$('.nav-link').click(function(event) {
+    event.preventDefault();
+    $target = $($(this).attr('href'));
+    $('html, body').animate({
+        scrollTop: $target.offset().top - 70
+    }, 1000);
+});
 
 $(window).scroll(function() {
     if ($(document).scrollTop() > 25) {
         $('nav').addClass('scrolled');
         $('nav-bar').addClass('scrolled');
-        trocarImagem();
     } else {
         $('nav').removeClass('scrolled');
         $('nav-bar').removeClass('scrolled');
-        trocarImagem();
     }
 });

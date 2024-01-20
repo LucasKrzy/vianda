@@ -103,17 +103,19 @@ body {
 .section-title {
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
 }
 
-.section-subtitle {
+.section-text {
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.servico {
+    margin-bottom: 15px;
 }
 
 .card-img-top {
@@ -142,6 +144,7 @@ body {
 .jumbotron .btn:hover {
     border-color: #967858 !important;
 }
+
 .testimonial-image {
     max-height: 20rem;
     border-radius: 0%;
