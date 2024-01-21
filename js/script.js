@@ -15,3 +15,12 @@ $(window).scroll(function() {
         $('nav-bar').removeClass('scrolled');
     }
 });
+$('.navbar-toggler').click(function() {
+    if ($('nav').hasClass('scrolled')) { // Se a classe 'scrolled' já estiver presente
+        $('nav').removeClass('scrolled');
+        $('.navbar').removeClass('scrolled');
+    } else { // Se a classe 'scrolled' não estiver presente
+        $('nav').addClass('scrolled');
+        $('.navbar').addClass('scrolled');
+    }
+});
