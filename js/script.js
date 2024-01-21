@@ -16,7 +16,7 @@ $(window).scroll(function() {
     }
 });
 $('.navbar-toggler').click(function() {
-    if ($('nav').hasClass('scrolled')) { // Se a classe 'scrolled' já estiver presente
+    if ($('#basic-navbar-nav').hasClass('show') && $(document).scrollTop() < 25) { // Se a classe 'scrolled' já estiver presente
         $('nav').removeClass('scrolled');
         $('.navbar').removeClass('scrolled');
     } else { // Se a classe 'scrolled' não estiver presente
