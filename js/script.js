@@ -3,7 +3,7 @@ $('.nav-link').click(function(event) {
     $target = $($(this).attr('href'));
     $('html, body').animate({
         scrollTop: $target.offset().top - 70
-    }, 1000);
+    }, 500);
 });
 
 $(window).scroll(function() {
